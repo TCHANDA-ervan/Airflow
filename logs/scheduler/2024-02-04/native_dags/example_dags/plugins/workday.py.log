@@ -1,0 +1,6 @@
+[2024-02-04T10:08:42.963+0100] {processor.py:161} INFO - Started process (PID=56100) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-02-04T10:08:42.965+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-02-04T10:08:42.984+0100] {logging_mixin.py:188} INFO - [2024-02-04T10:08:42.983+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-02-04T10:09:13.068+0100] {logging_mixin.py:188} INFO - [2024-02-04T10:09:13.056+0100] {timeout.py:68} ERROR - Process timed out, PID: 56100
+[2024-02-04T10:09:15.126+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-02-04T10:09:15.153+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 32.363 seconds

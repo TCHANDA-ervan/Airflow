@@ -1,0 +1,299 @@
+[2024-02-01T14:06:23.129+0100] {processor.py:161} INFO - Started process (PID=6104) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:06:23.158+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:06:23.168+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:06:23.167+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:06:23.336+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:06:23.331+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:06:23.337+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:06:24.008+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.013 seconds
+[2024-02-01T14:10:38.442+0100] {processor.py:161} INFO - Started process (PID=6190) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:10:38.501+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:10:38.504+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:10:38.503+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:10:38.571+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:10:38.570+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:10:38.587+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:10:39.163+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.731 seconds
+[2024-02-01T14:12:20.655+0100] {processor.py:161} INFO - Started process (PID=6253) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:12:20.695+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:12:20.697+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:12:20.697+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:12:20.763+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:12:20.761+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:12:20.764+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:12:21.074+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.463 seconds
+[2024-02-01T14:14:07.936+0100] {processor.py:161} INFO - Started process (PID=6382) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:14:08.022+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:14:08.023+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:14:08.023+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:14:08.202+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:14:08.192+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:14:08.202+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:14:08.625+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.716 seconds
+[2024-02-01T14:16:08.928+0100] {processor.py:161} INFO - Started process (PID=6459) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:16:08.986+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:16:08.988+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:16:08.987+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:16:09.100+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:16:09.098+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:16:09.123+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:16:10.178+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.270 seconds
+[2024-02-01T14:19:22.622+0100] {processor.py:161} INFO - Started process (PID=7298) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:19:23.089+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:19:23.091+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:19:23.090+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:19:23.558+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:19:23.556+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:19:23.559+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:19:24.729+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 2.199 seconds
+[2024-02-01T14:22:17.381+0100] {processor.py:161} INFO - Started process (PID=7973) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:22:17.443+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:22:17.467+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:22:17.466+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:22:17.615+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:22:17.603+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 22, in <module>
+    scala_task = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-02-01T14:22:17.615+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:22:18.542+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.190 seconds
+[2024-02-01T14:25:15.199+0100] {processor.py:161} INFO - Started process (PID=8069) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:25:15.302+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:25:15.304+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:25:15.303+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:25:15.329+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:25:15.326+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 23
+    bash_command='spark-submit --class main.sc
+IndentationError: unexpected indent
+[2024-02-01T14:25:15.350+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:25:15.787+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.639 seconds
+[2024-02-01T14:28:28.376+0100] {processor.py:161} INFO - Started process (PID=8152) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:28:28.409+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:28:28.411+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:28:28.410+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:28:28.458+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:28:28.456+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4
+    from airflow.
+                 ^
+SyntaxError: invalid syntax
+[2024-02-01T14:28:28.459+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:28:29.465+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.103 seconds
+[2024-02-01T14:31:17.590+0100] {processor.py:161} INFO - Started process (PID=8238) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:31:17.670+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:31:17.679+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:31:17.678+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:31:17.717+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:31:17.711+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:31:17.718+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:31:18.431+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.870 seconds
+[2024-02-01T14:33:29.941+0100] {processor.py:161} INFO - Started process (PID=8614) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:33:29.982+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:33:29.992+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:33:29.991+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:33:30.074+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:33:30.050+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:33:30.075+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:33:30.426+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.493 seconds
+[2024-02-01T14:35:46.893+0100] {processor.py:161} INFO - Started process (PID=8908) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:35:46.947+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:35:46.964+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:35:46.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:35:46.984+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:35:46.982+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:35:46.998+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:35:47.801+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.939 seconds
+[2024-02-01T14:38:10.765+0100] {processor.py:161} INFO - Started process (PID=9140) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:38:10.787+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:38:10.865+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:38:10.795+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:38:11.066+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:38:11.029+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:38:11.066+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:38:12.087+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.345 seconds
+[2024-02-01T14:42:59.303+0100] {processor.py:161} INFO - Started process (PID=10080) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:42:59.853+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:42:59.864+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:42:59.855+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:43:00.176+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:42:59.886+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:43:00.191+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:43:01.826+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 2.586 seconds
+[2024-02-01T14:48:29.739+0100] {processor.py:161} INFO - Started process (PID=10221) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:48:29.878+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:48:29.890+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:48:29.879+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:48:29.938+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:48:29.928+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:48:29.939+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:48:31.019+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.316 seconds
+[2024-02-01T14:52:44.228+0100] {processor.py:161} INFO - Started process (PID=10569) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:52:44.386+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:52:44.403+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:52:44.387+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:52:44.512+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:52:44.418+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:52:44.513+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:52:45.324+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.103 seconds
+[2024-02-01T14:58:23.844+0100] {processor.py:161} INFO - Started process (PID=11583) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:58:23.953+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T14:58:23.955+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:58:23.954+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:58:24.031+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:58:24.020+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T14:58:24.038+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T14:58:25.188+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.353 seconds
+[2024-02-01T15:02:30.798+0100] {processor.py:161} INFO - Started process (PID=11680) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:02:31.047+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T15:02:31.048+0100] {logging_mixin.py:188} INFO - [2024-02-01T15:02:31.048+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:02:31.118+0100] {logging_mixin.py:188} INFO - [2024-02-01T15:02:31.106+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T15:02:31.119+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:02:31.828+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.084 seconds
+[2024-02-01T15:13:37.723+0100] {processor.py:161} INFO - Started process (PID=11920) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:13:37.958+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T15:13:38.061+0100] {logging_mixin.py:188} INFO - [2024-02-01T15:13:38.060+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:13:38.248+0100] {logging_mixin.py:188} INFO - [2024-02-01T15:13:38.158+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T15:13:38.249+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T15:13:39.355+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.707 seconds
+[2024-02-01T16:00:28.388+0100] {processor.py:161} INFO - Started process (PID=8473) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:00:28.471+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T16:00:28.473+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:00:28.472+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:00:28.769+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:00:28.480+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-01T16:00:28.777+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:00:29.847+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.549 seconds
+[2024-02-01T16:06:59.430+0100] {processor.py:161} INFO - Started process (PID=9550) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:06:59.644+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-02-01T16:06:59.657+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:06:59.645+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:06:59.715+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:06:59.707+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 4, in <module>
+    from airflow.providers.apache.spark.operators.spark.submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache.spark.operators.spark'
+[2024-02-01T16:06:59.715+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-02-01T16:07:03.541+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 4.207 seconds

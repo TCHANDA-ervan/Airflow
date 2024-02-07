@@ -1,0 +1,1149 @@
+[2024-01-30T23:16:17.966+0100] {processor.py:161} INFO - Started process (PID=5028) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:16:17.973+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:16:17.977+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:16:17.975+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:16:18.064+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:16:18.059+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-30T23:16:18.069+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:16:18.196+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.254 seconds
+[2024-01-30T23:18:38.715+0100] {processor.py:161} INFO - Started process (PID=7561) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:18:38.718+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:18:38.719+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:18:38.719+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:18:38.794+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:18:38.789+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-30T23:18:38.794+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:18:39.338+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.628 seconds
+[2024-01-30T23:20:15.227+0100] {processor.py:161} INFO - Started process (PID=7644) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:20:15.274+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:20:15.275+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:20:15.275+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:20:15.358+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:20:15.721+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:20:15.721+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:20:15.772+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:20:15.772+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-01T00:00:00+00:00, run_after=2024-01-02T00:00:00+00:00
+[2024-01-30T23:20:16.309+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.088 seconds
+[2024-01-30T23:21:57.378+0100] {processor.py:161} INFO - Started process (PID=7792) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:21:57.398+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:21:57.417+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:21:57.399+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:21:57.436+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:21:57.500+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:21:57.500+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:21:57.547+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:21:57.546+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-01-30T23:21:57.813+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.447 seconds
+[2024-01-30T23:23:32.787+0100] {processor.py:161} INFO - Started process (PID=7858) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:23:32.835+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:23:32.853+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:23:32.852+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:23:32.923+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:23:33.395+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:23:33.395+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:23:33.455+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:23:33.454+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-01-30T23:23:33.661+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.889 seconds
+[2024-01-30T23:25:14.326+0100] {processor.py:161} INFO - Started process (PID=7940) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:14.361+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:25:14.362+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:14.362+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:14.394+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:14.478+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:14.477+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:25:14.542+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:14.542+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:25:14.902+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.591 seconds
+[2024-01-30T23:25:57.260+0100] {processor.py:161} INFO - Started process (PID=7982) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:57.263+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:25:57.268+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:57.267+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:57.290+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:25:57.344+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:57.343+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:25:57.383+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:25:57.383+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:25:57.488+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.232 seconds
+[2024-01-30T23:26:38.490+0100] {processor.py:161} INFO - Started process (PID=8011) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:26:38.494+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:26:38.495+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:26:38.495+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:26:38.512+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:26:38.531+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:26:38.531+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:26:38.552+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:26:38.551+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:26:38.654+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.167 seconds
+[2024-01-30T23:27:21.281+0100] {processor.py:161} INFO - Started process (PID=8051) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:27:21.284+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:27:21.286+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:27:21.285+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:27:21.303+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:27:21.361+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:27:21.360+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:27:21.383+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:27:21.383+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:27:21.574+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.298 seconds
+[2024-01-30T23:28:09.377+0100] {processor.py:161} INFO - Started process (PID=8101) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:09.392+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:28:09.406+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:09.394+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:09.476+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:09.547+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:09.547+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:28:09.614+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:09.614+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:28:09.863+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.504 seconds
+[2024-01-30T23:28:53.699+0100] {processor.py:161} INFO - Started process (PID=8141) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:53.713+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:28:53.716+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:53.715+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:53.731+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:28:53.752+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:53.752+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:28:53.781+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:28:53.781+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:28:53.897+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.208 seconds
+[2024-01-30T23:29:31.395+0100] {processor.py:161} INFO - Started process (PID=8172) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:29:31.420+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:29:31.426+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:29:31.425+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:29:31.447+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:29:31.478+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:29:31.478+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:29:31.552+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:29:31.552+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:29:31.700+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.324 seconds
+[2024-01-30T23:30:12.369+0100] {processor.py:161} INFO - Started process (PID=8222) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:12.380+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:30:12.382+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:12.381+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:12.399+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:12.449+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:12.449+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:30:12.556+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:12.556+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:30:12.683+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.329 seconds
+[2024-01-30T23:30:49.075+0100] {processor.py:161} INFO - Started process (PID=8252) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:49.080+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:30:49.081+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:49.081+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:49.103+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:30:49.126+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:49.126+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:30:49.185+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:30:49.163+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:30:49.345+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.275 seconds
+[2024-01-30T23:31:23.533+0100] {processor.py:161} INFO - Started process (PID=8286) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:31:23.536+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:31:23.537+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:31:23.536+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:31:23.555+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:31:23.577+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:31:23.576+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:31:23.599+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:31:23.598+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:31:23.766+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.237 seconds
+[2024-01-30T23:32:05.961+0100] {processor.py:161} INFO - Started process (PID=8315) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:05.964+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:32:05.965+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:05.965+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:05.980+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:06.002+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:06.001+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:32:06.023+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:06.023+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:32:06.325+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.364 seconds
+[2024-01-30T23:32:52.700+0100] {processor.py:161} INFO - Started process (PID=8364) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:52.733+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:32:52.735+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:52.734+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:52.804+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:32:52.854+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:52.853+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:32:52.875+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:32:52.875+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:32:53.086+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.395 seconds
+[2024-01-30T23:33:34.930+0100] {processor.py:161} INFO - Started process (PID=8397) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:33:34.934+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:33:34.937+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:33:34.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:33:34.955+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:33:34.979+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:33:34.979+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:33:35.003+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:33:35.003+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:33:35.258+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.333 seconds
+[2024-01-30T23:34:16.862+0100] {processor.py:161} INFO - Started process (PID=8434) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:16.865+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:34:16.866+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:16.866+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:16.881+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:16.904+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:16.904+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:34:16.940+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:16.940+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:34:17.014+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.157 seconds
+[2024-01-30T23:34:58.237+0100] {processor.py:161} INFO - Started process (PID=8467) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:58.278+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:34:58.279+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:58.279+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:58.327+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:34:58.358+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:58.358+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:34:58.418+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:34:58.418+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:34:58.796+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.572 seconds
+[2024-01-30T23:35:41.603+0100] {processor.py:161} INFO - Started process (PID=8505) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:35:41.608+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:35:41.615+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:35:41.614+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:35:41.636+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:35:41.687+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:35:41.687+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:35:41.788+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:35:41.787+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:35:41.990+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.393 seconds
+[2024-01-30T23:36:33.298+0100] {processor.py:161} INFO - Started process (PID=8543) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:36:33.315+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:36:33.333+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:36:33.323+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:36:33.346+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:36:33.339+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:36:33.346+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:36:33.603+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.310 seconds
+[2024-01-30T23:37:23.190+0100] {processor.py:161} INFO - Started process (PID=8587) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:37:23.193+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:37:23.196+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:37:23.196+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:37:23.203+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:37:23.202+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:37:23.204+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:37:23.338+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.153 seconds
+[2024-01-30T23:38:08.290+0100] {processor.py:161} INFO - Started process (PID=8626) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:08.293+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:38:08.294+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:38:08.294+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:08.299+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:38:08.298+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:38:08.308+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:08.389+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.121 seconds
+[2024-01-30T23:38:48.805+0100] {processor.py:161} INFO - Started process (PID=8662) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:48.808+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:38:48.810+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:38:48.809+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:48.818+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:38:48.817+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:38:48.819+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:38:48.877+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.077 seconds
+[2024-01-30T23:39:26.880+0100] {processor.py:161} INFO - Started process (PID=8692) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:39:26.883+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:39:26.885+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:39:26.884+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:39:26.913+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:39:26.912+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:39:26.914+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:39:27.189+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.315 seconds
+[2024-01-30T23:40:06.339+0100] {processor.py:161} INFO - Started process (PID=8728) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:06.341+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:40:06.343+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:40:06.343+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:06.348+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:40:06.346+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:40:06.348+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:06.518+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.184 seconds
+[2024-01-30T23:40:43.219+0100] {processor.py:161} INFO - Started process (PID=8757) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:43.223+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:40:43.225+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:40:43.224+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:43.230+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:40:43.229+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:40:43.234+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:40:43.358+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.143 seconds
+[2024-01-30T23:41:17.084+0100] {processor.py:161} INFO - Started process (PID=8791) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:17.087+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:41:17.089+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:41:17.088+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:17.097+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:41:17.096+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:41:17.098+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:17.142+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.064 seconds
+[2024-01-30T23:41:50.537+0100] {processor.py:161} INFO - Started process (PID=8817) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:50.540+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:41:50.541+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:41:50.541+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:50.552+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:41:50.551+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:41:50.553+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:41:50.657+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.124 seconds
+[2024-01-30T23:42:28.449+0100] {processor.py:161} INFO - Started process (PID=8852) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:42:28.451+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:42:28.453+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:42:28.453+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:42:28.458+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:42:28.457+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:42:28.458+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:42:28.516+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.072 seconds
+[2024-01-30T23:43:03.656+0100] {processor.py:161} INFO - Started process (PID=8886) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:03.663+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:43:03.667+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:43:03.666+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:03.673+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:43:03.672+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:43:03.674+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:03.872+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.221 seconds
+[2024-01-30T23:43:38.077+0100] {processor.py:161} INFO - Started process (PID=8919) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:38.085+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:43:38.088+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:43:38.086+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:38.094+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:43:38.092+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:43:38.095+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:43:38.142+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.073 seconds
+[2024-01-30T23:44:12.779+0100] {processor.py:161} INFO - Started process (PID=8948) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:12.782+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:44:12.784+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:44:12.784+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:12.790+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:44:12.788+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:44:12.791+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:12.970+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.196 seconds
+[2024-01-30T23:44:46.454+0100] {processor.py:161} INFO - Started process (PID=8980) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:46.463+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:44:46.464+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:44:46.464+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:46.470+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:44:46.468+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:44:46.471+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:44:46.545+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.095 seconds
+[2024-01-30T23:45:20.255+0100] {processor.py:161} INFO - Started process (PID=9009) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:20.258+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:45:20.260+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:45:20.259+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:20.265+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:45:20.264+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:45:20.266+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:20.412+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.163 seconds
+[2024-01-30T23:45:56.072+0100] {processor.py:161} INFO - Started process (PID=9059) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:56.074+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:45:56.076+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:45:56.076+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:56.082+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:45:56.081+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:45:56.083+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:45:56.279+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.217 seconds
+[2024-01-30T23:46:27.834+0100] {processor.py:161} INFO - Started process (PID=9086) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:46:27.836+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:46:27.838+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:46:27.837+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:46:27.846+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:46:27.845+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:46:27.847+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:46:27.894+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.066 seconds
+[2024-01-30T23:47:00.137+0100] {processor.py:161} INFO - Started process (PID=9122) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:00.172+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:47:00.176+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:47:00.176+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:00.181+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:47:00.180+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:47:00.188+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:00.404+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.274 seconds
+[2024-01-30T23:47:33.932+0100] {processor.py:161} INFO - Started process (PID=9153) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:33.935+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:47:33.937+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:47:33.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:33.943+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:47:33.941+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:47:33.944+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:47:34.005+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.079 seconds
+[2024-01-30T23:48:06.629+0100] {processor.py:161} INFO - Started process (PID=9187) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:06.632+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:48:06.634+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:48:06.633+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:06.640+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:48:06.638+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:48:06.641+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:06.723+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.101 seconds
+[2024-01-30T23:48:40.886+0100] {processor.py:161} INFO - Started process (PID=9213) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:40.906+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:48:40.907+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:48:40.907+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:40.913+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:48:40.912+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:48:40.916+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:48:41.029+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.148 seconds
+[2024-01-30T23:49:13.427+0100] {processor.py:161} INFO - Started process (PID=9247) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:13.429+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:49:13.431+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:49:13.430+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:13.436+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:49:13.435+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:49:13.437+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:13.568+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.158 seconds
+[2024-01-30T23:49:45.794+0100] {processor.py:161} INFO - Started process (PID=9272) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:45.799+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:49:45.801+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:49:45.801+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:45.807+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:49:45.806+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:49:45.808+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:49:45.926+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.136 seconds
+[2024-01-30T23:50:18.679+0100] {processor.py:161} INFO - Started process (PID=9307) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:18.681+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:50:18.683+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:50:18.682+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:18.688+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:50:18.687+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:50:18.689+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:18.815+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.142 seconds
+[2024-01-30T23:50:50.064+0100] {processor.py:161} INFO - Started process (PID=9334) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:50.067+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:50:50.069+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:50:50.068+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:50.077+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:50:50.076+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:50:50.078+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:50:50.208+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.148 seconds
+[2024-01-30T23:51:21.026+0100] {processor.py:161} INFO - Started process (PID=9367) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:51:21.029+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:51:21.031+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:51:21.030+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:51:21.035+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:51:21.034+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:51:21.036+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:51:21.241+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.219 seconds
+[2024-01-30T23:52:00.046+0100] {processor.py:161} INFO - Started process (PID=9469) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:52:00.075+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:52:00.094+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:52:00.076+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:52:00.176+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:52:00.166+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:52:00.177+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:52:00.324+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.307 seconds
+[2024-01-30T23:52:59.922+0100] {processor.py:161} INFO - Started process (PID=9516) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:52:59.959+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:52:59.960+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:52:59.960+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:52:59.978+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:52:59.972+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 17
+    description='les meteo provisionnel'
+                ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-01-30T23:52:59.985+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:53:00.311+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.412 seconds
+[2024-01-30T23:53:57.389+0100] {processor.py:161} INFO - Started process (PID=9561) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:53:57.421+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:53:57.422+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:53:57.422+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:53:57.466+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:53:57.918+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:53:57.917+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:53:57.958+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:53:57.957+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:53:58.458+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.127 seconds
+[2024-01-30T23:54:59.011+0100] {processor.py:161} INFO - Started process (PID=9600) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:54:59.027+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:54:59.032+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:54:59.032+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:54:59.078+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:54:59.163+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:54:59.162+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:54:59.240+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:54:59.239+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:54:59.504+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.511 seconds
+[2024-01-30T23:56:05.674+0100] {processor.py:161} INFO - Started process (PID=9642) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:56:05.689+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:56:05.690+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:56:05.690+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:56:05.734+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:56:05.794+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:56:05.794+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:56:05.839+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:56:05.838+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:56:06.154+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.491 seconds
+[2024-01-30T23:57:13.386+0100] {processor.py:161} INFO - Started process (PID=9695) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:57:13.430+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:57:13.431+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:57:13.431+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:57:13.489+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:57:13.531+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:57:13.531+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:57:13.609+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:57:13.609+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:57:13.850+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.486 seconds
+[2024-01-30T23:58:23.122+0100] {processor.py:161} INFO - Started process (PID=9740) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:58:23.160+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:58:23.162+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:58:23.161+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:58:23.239+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:58:23.345+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:58:23.344+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:58:23.435+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:58:23.435+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:58:23.687+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.571 seconds
+[2024-01-30T23:59:36.475+0100] {processor.py:161} INFO - Started process (PID=9783) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:59:36.508+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-30T23:59:36.514+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:59:36.514+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:59:36.562+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-30T23:59:36.657+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:59:36.657+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-30T23:59:36.751+0100] {logging_mixin.py:188} INFO - [2024-01-30T23:59:36.751+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-30T23:59:37.018+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.569 seconds
+[2024-01-31T00:00:51.274+0100] {processor.py:161} INFO - Started process (PID=9870) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:00:51.326+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:00:51.327+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:00:51.327+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:00:51.373+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:00:51.542+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:00:51.542+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:00:51.638+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:00:51.638+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:00:52.423+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.172 seconds
+[2024-01-31T00:02:09.782+0100] {processor.py:161} INFO - Started process (PID=9918) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:02:09.818+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:02:09.819+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:02:09.819+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:02:09.869+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:02:09.948+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:02:09.947+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:02:09.994+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:02:09.994+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:02:10.231+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.476 seconds
+[2024-01-31T00:03:14.953+0100] {processor.py:161} INFO - Started process (PID=9980) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:14.976+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:03:14.978+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:14.977+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:15.002+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:15.042+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:15.041+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:03:15.089+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:15.087+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:03:15.396+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.456 seconds
+[2024-01-31T00:03:55.874+0100] {processor.py:161} INFO - Started process (PID=10016) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:55.877+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:03:55.879+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:55.878+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:55.896+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:03:55.922+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:55.921+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:03:55.946+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:03:55.946+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:03:56.038+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.170 seconds
+[2024-01-31T00:04:31.197+0100] {processor.py:161} INFO - Started process (PID=10045) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:04:31.221+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:04:31.222+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.222+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:04:31.251+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:04:31.305+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.305+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:04:31.383+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.383+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:04:31.438+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.257 seconds
+[2024-01-31T00:05:07.253+0100] {processor.py:161} INFO - Started process (PID=10079) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:07.271+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:05:07.278+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:07.272+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:07.292+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:07.319+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:07.319+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:05:07.359+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:07.359+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:05:07.590+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.341 seconds
+[2024-01-31T00:05:43.286+0100] {processor.py:161} INFO - Started process (PID=10107) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:43.291+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:05:43.295+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:43.294+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:43.309+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:05:43.332+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:43.332+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:05:43.359+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:05:43.358+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:05:43.478+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.196 seconds
+[2024-01-31T00:06:18.466+0100] {processor.py:161} INFO - Started process (PID=10141) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:18.469+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:06:18.470+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:18.470+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:18.486+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:18.511+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:18.511+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:06:18.552+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:18.552+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:06:18.658+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.200 seconds
+[2024-01-31T00:06:57.282+0100] {processor.py:161} INFO - Started process (PID=10170) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:57.315+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:06:57.332+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:57.328+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:57.423+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:06:57.484+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:57.484+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:06:57.513+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:06:57.512+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:06:57.687+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.409 seconds
+[2024-01-31T00:07:34.994+0100] {processor.py:161} INFO - Started process (PID=10209) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:07:34.997+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:07:34.998+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:07:34.998+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:07:35.027+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:07:35.050+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:07:35.050+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:07:35.100+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:07:35.100+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:07:35.246+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.257 seconds
+[2024-01-31T00:08:10.035+0100] {processor.py:161} INFO - Started process (PID=10239) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:10.039+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:08:10.041+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:10.041+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:10.055+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:10.076+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:10.076+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:08:10.096+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:10.096+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:08:10.377+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.346 seconds
+[2024-01-31T00:08:44.310+0100] {processor.py:161} INFO - Started process (PID=10271) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:44.311+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:08:44.314+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:44.313+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:44.337+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:08:44.357+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:44.357+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:08:44.379+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:08:44.379+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:08:44.568+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.266 seconds
+[2024-01-31T00:09:19.564+0100] {processor.py:161} INFO - Started process (PID=10299) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:19.570+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:09:19.573+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:19.572+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:19.586+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:19.625+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:19.625+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:09:19.725+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:19.725+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:09:19.907+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.347 seconds
+[2024-01-31T00:09:57.495+0100] {processor.py:161} INFO - Started process (PID=10332) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:57.498+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:09:57.501+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:57.500+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:57.517+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:09:57.541+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:57.540+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:09:57.563+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:09:57.563+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:09:57.834+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.344 seconds
+[2024-01-31T00:10:33.292+0100] {processor.py:161} INFO - Started process (PID=10362) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:10:33.311+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:10:33.313+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:10:33.312+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:10:33.343+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:10:33.368+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:10:33.368+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:10:33.393+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:10:33.392+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:10:33.526+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.238 seconds
+[2024-01-31T00:11:08.830+0100] {processor.py:161} INFO - Started process (PID=10395) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:08.849+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:11:08.850+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:08.850+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:08.901+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:08.939+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:08.939+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:11:08.967+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:08.967+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:11:09.270+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.445 seconds
+[2024-01-31T00:11:53.728+0100] {processor.py:161} INFO - Started process (PID=10514) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:53.733+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:11:53.735+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:53.734+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:53.818+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:11:53.901+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:53.901+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:11:54.052+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:11:54.052+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:11:54.379+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.656 seconds
+[2024-01-31T00:12:43.658+0100] {processor.py:161} INFO - Started process (PID=10558) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:12:43.666+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:12:43.676+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:12:43.675+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:12:43.720+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:12:43.742+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:12:43.742+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:12:43.770+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:12:43.770+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:12:43.843+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.186 seconds
+[2024-01-31T00:13:32.786+0100] {processor.py:161} INFO - Started process (PID=10592) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:13:32.789+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:13:32.794+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:13:32.793+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:13:32.842+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:13:32.943+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:13:32.942+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:13:33.006+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:13:33.006+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:13:33.063+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.282 seconds
+[2024-01-31T00:14:19.744+0100] {processor.py:161} INFO - Started process (PID=10630) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:14:19.748+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:14:19.750+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:14:19.749+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:14:19.765+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:14:19.788+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:14:19.787+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:14:19.884+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:14:19.884+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:14:20.097+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.357 seconds
+[2024-01-31T00:15:02.770+0100] {processor.py:161} INFO - Started process (PID=10662) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:02.772+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:15:02.774+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:02.774+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:02.792+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:02.829+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:02.829+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:15:02.919+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:02.918+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:15:03.341+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.575 seconds
+[2024-01-31T00:15:44.634+0100] {processor.py:161} INFO - Started process (PID=10698) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:44.650+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:15:44.658+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:44.657+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:44.672+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:15:44.696+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:44.695+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:15:44.721+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:15:44.720+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:15:44.873+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.243 seconds
+[2024-01-31T00:16:24.811+0100] {processor.py:161} INFO - Started process (PID=10728) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:16:24.832+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:16:24.834+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:16:24.833+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:16:24.886+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:16:25.005+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:16:25.005+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:16:25.075+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:16:25.075+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:16:25.263+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.462 seconds
+[2024-01-31T00:17:10.102+0100] {processor.py:161} INFO - Started process (PID=10773) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:10.122+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:17:10.125+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:10.123+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:10.156+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:10.255+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:10.239+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:17:10.340+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:10.336+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:17:10.605+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.527 seconds
+[2024-01-31T00:17:53.951+0100] {processor.py:161} INFO - Started process (PID=10827) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:53.955+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:17:53.965+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:53.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:54.005+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:17:54.062+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:54.061+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:17:54.221+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:17:54.220+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:17:54.730+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.791 seconds
+[2024-01-31T00:18:36.650+0100] {processor.py:161} INFO - Started process (PID=10867) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:18:36.672+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:18:36.678+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:18:36.672+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:18:36.725+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:18:36.745+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:18:36.745+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:18:36.765+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:18:36.765+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:18:36.985+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.339 seconds
+[2024-01-31T00:19:14.157+0100] {processor.py:161} INFO - Started process (PID=10899) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:19:14.160+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:19:14.164+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:19:14.163+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:19:14.182+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:19:14.205+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:19:14.205+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:19:14.245+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:19:14.245+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:19:14.364+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.213 seconds
+[2024-01-31T00:20:01.259+0100] {processor.py:161} INFO - Started process (PID=11020) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:20:01.284+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:20:01.291+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.291+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:20:01.343+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:20:01.416+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.415+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:20:01.530+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.530+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:20:02.006+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.762 seconds
+[2024-01-31T00:21:07.912+0100] {processor.py:161} INFO - Started process (PID=11055) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:21:07.944+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:21:07.950+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:21:07.949+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:21:08.005+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:21:08.088+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:21:08.084+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:21:08.137+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:21:08.136+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:21:08.429+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.544 seconds
+[2024-01-31T00:22:20.524+0100] {processor.py:161} INFO - Started process (PID=11099) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:22:20.548+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:22:20.550+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:22:20.549+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:22:20.606+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:22:20.728+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:22:20.728+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:22:21.149+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:22:21.148+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:22:21.764+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.263 seconds
+[2024-01-31T00:23:30.539+0100] {processor.py:161} INFO - Started process (PID=11144) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:23:30.572+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:23:30.578+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:23:30.577+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:23:30.618+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:23:30.727+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:23:30.727+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:23:30.802+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:23:30.802+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:23:31.352+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.828 seconds
+[2024-01-31T00:24:41.693+0100] {processor.py:161} INFO - Started process (PID=11188) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:24:41.718+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:24:41.720+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:24:41.719+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:24:41.771+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:24:41.866+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:24:41.865+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:24:41.944+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:24:41.943+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:24:42.328+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.650 seconds
+[2024-01-31T00:25:29.209+0100] {processor.py:161} INFO - Started process (PID=11247) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:25:29.212+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:25:29.230+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:25:29.218+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:25:29.246+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:25:29.270+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:25:29.269+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:25:29.296+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:25:29.296+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:25:29.388+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.182 seconds
+[2024-01-31T00:26:02.049+0100] {processor.py:161} INFO - Started process (PID=11274) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:02.051+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:26:02.053+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:02.052+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:02.069+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:02.092+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:02.091+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:26:02.120+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:02.119+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:26:02.210+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.165 seconds
+[2024-01-31T00:26:34.404+0100] {processor.py:161} INFO - Started process (PID=11306) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:34.416+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:26:34.419+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:34.419+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:34.455+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:26:34.489+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:34.489+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:26:34.528+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:26:34.528+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:26:34.730+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.388 seconds
+[2024-01-31T00:27:11.321+0100] {processor.py:161} INFO - Started process (PID=11336) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:11.329+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:27:11.338+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.337+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:11.354+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:11.381+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.381+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:27:11.406+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.406+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:27:11.691+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.374 seconds
+[2024-01-31T00:27:51.451+0100] {processor.py:161} INFO - Started process (PID=11450) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:51.458+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:27:51.461+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:51.459+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:51.495+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:27:51.547+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:51.546+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:27:51.619+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:27:51.619+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:27:51.812+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.367 seconds
+[2024-01-31T00:28:36.980+0100] {processor.py:161} INFO - Started process (PID=11496) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:28:37.019+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:28:37.050+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:28:37.044+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:28:37.084+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:28:37.111+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:28:37.110+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:28:37.138+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:28:37.138+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:28:37.235+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.261 seconds
+[2024-01-31T00:29:16.274+0100] {processor.py:161} INFO - Started process (PID=11533) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:16.284+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:29:16.288+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:16.287+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:16.350+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:16.391+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:16.390+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:29:16.419+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:16.419+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:29:16.683+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.413 seconds
+[2024-01-31T00:29:53.919+0100] {processor.py:161} INFO - Started process (PID=11562) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:53.941+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:29:53.943+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:53.942+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:53.958+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:29:53.983+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:53.983+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:29:54.008+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:29:54.008+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:29:54.321+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.408 seconds
+[2024-01-31T00:30:34.273+0100] {processor.py:161} INFO - Started process (PID=11598) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:30:34.275+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:30:34.277+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:30:34.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:30:34.293+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:30:34.314+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:30:34.314+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:30:34.348+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:30:34.348+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:30:34.398+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.142 seconds
+[2024-01-31T00:31:13.153+0100] {processor.py:161} INFO - Started process (PID=11629) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:13.157+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:31:13.162+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:13.160+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:13.180+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:13.205+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:13.205+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:31:13.237+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:13.237+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:31:13.415+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.266 seconds
+[2024-01-31T00:31:52.048+0100] {processor.py:161} INFO - Started process (PID=11663) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:52.051+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:31:52.057+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:52.056+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:52.089+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:31:52.115+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:52.115+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:31:52.144+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:31:52.144+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:31:52.303+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.261 seconds
+[2024-01-31T00:32:31.741+0100] {processor.py:161} INFO - Started process (PID=11693) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:32:31.746+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:32:31.748+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:32:31.748+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:32:31.763+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:32:31.848+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:32:31.848+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:32:31.873+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:32:31.873+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:32:31.955+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.220 seconds
+[2024-01-31T00:33:08.405+0100] {processor.py:161} INFO - Started process (PID=11731) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:08.409+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:33:08.411+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:08.410+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:08.428+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:08.453+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:08.453+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:33:08.477+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:08.477+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:33:08.582+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.185 seconds
+[2024-01-31T00:33:46.563+0100] {processor.py:161} INFO - Started process (PID=11774) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:46.566+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:33:46.569+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:46.568+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:46.586+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:33:46.608+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:46.608+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:33:46.634+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:33:46.633+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:33:46.719+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.162 seconds
+[2024-01-31T00:34:23.548+0100] {processor.py:161} INFO - Started process (PID=11810) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:23.575+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:34:23.579+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:23.578+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:23.593+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:23.615+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:23.615+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:34:23.637+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:23.636+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:34:23.799+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.255 seconds
+[2024-01-31T00:34:58.059+0100] {processor.py:161} INFO - Started process (PID=11837) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:58.069+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:34:58.078+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:58.077+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:58.096+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:34:58.138+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:58.137+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:34:58.170+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:34:58.170+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:34:58.211+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.170 seconds
+[2024-01-31T00:35:31.627+0100] {processor.py:161} INFO - Started process (PID=11871) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:35:31.629+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:35:31.632+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:35:31.631+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:35:31.648+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:35:31.675+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:35:31.675+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:35:31.700+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:35:31.700+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:35:31.879+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.258 seconds
+[2024-01-31T00:36:04.597+0100] {processor.py:161} INFO - Started process (PID=11900) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:04.598+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:36:04.600+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:04.599+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:04.624+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:04.692+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:04.691+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:36:04.723+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:04.722+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:36:04.902+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.310 seconds
+[2024-01-31T00:36:36.241+0100] {processor.py:161} INFO - Started process (PID=11932) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:36.244+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:36:36.246+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:36.245+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:36.260+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:36:36.285+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:36.285+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:36:36.310+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:36:36.310+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:36:36.406+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.171 seconds
+[2024-01-31T00:37:09.223+0100] {processor.py:161} INFO - Started process (PID=11960) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:09.228+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:37:09.230+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:09.230+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:09.277+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:09.306+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:09.306+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:37:09.354+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:09.354+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:37:09.452+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.234 seconds
+[2024-01-31T00:37:46.209+0100] {processor.py:161} INFO - Started process (PID=11996) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:46.213+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:37:46.215+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:46.214+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:46.274+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:37:46.337+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:46.336+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:37:46.417+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:37:46.417+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:37:46.548+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.343 seconds
+[2024-01-31T00:38:23.379+0100] {processor.py:161} INFO - Started process (PID=12030) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:23.382+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:38:23.390+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:23.389+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:23.429+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:23.494+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:23.494+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:38:23.520+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:23.520+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:38:23.712+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.338 seconds
+[2024-01-31T00:38:59.804+0100] {processor.py:161} INFO - Started process (PID=12064) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:59.813+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:38:59.814+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:59.813+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:59.830+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:38:59.857+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:59.857+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:38:59.881+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:38:59.881+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:39:00.005+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.207 seconds
+[2024-01-31T00:39:33.602+0100] {processor.py:161} INFO - Started process (PID=12093) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:39:33.607+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:39:33.609+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:39:33.608+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:39:33.622+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:39:33.650+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:39:33.649+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:39:33.684+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:39:33.684+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:39:33.752+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.153 seconds
+[2024-01-31T00:40:06.586+0100] {processor.py:161} INFO - Started process (PID=12126) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:06.590+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:40:06.592+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:06.591+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:06.609+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:06.632+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:06.632+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:40:06.655+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:06.655+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:40:06.744+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.163 seconds
+[2024-01-31T00:40:42.922+0100] {processor.py:161} INFO - Started process (PID=12153) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:42.925+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:40:42.926+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:42.926+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:42.940+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:40:42.981+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:42.980+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:40:43.001+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:40:43.001+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:40:43.109+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.192 seconds
+[2024-01-31T00:41:17.065+0100] {processor.py:161} INFO - Started process (PID=12188) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:17.070+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:41:17.072+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:17.072+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:17.093+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:17.115+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:17.115+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:41:17.139+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:17.139+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:41:17.232+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.171 seconds
+[2024-01-31T00:41:52.494+0100] {processor.py:161} INFO - Started process (PID=12214) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:52.498+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:41:52.500+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:52.499+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:52.513+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:41:52.533+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:52.532+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:41:52.556+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:41:52.556+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:41:52.680+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.190 seconds
+[2024-01-31T00:42:27.502+0100] {processor.py:161} INFO - Started process (PID=12249) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:42:27.505+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:42:27.506+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:42:27.506+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:42:27.518+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:42:27.539+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:42:27.539+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:42:27.560+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:42:27.560+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:42:27.681+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.183 seconds
+[2024-01-31T00:43:00.815+0100] {processor.py:161} INFO - Started process (PID=12277) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:00.820+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:43:00.822+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:00.822+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:00.863+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:00.935+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:00.934+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:43:00.982+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:00.982+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:43:01.210+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.415 seconds
+[2024-01-31T00:43:33.448+0100] {processor.py:161} INFO - Started process (PID=12311) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:33.451+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:43:33.454+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:33.453+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:33.502+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:43:33.525+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:33.524+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:43:33.563+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:43:33.563+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:43:33.646+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.202 seconds
+[2024-01-31T00:44:07.326+0100] {processor.py:161} INFO - Started process (PID=12339) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:07.335+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:44:07.339+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:07.338+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:07.358+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:07.385+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:07.385+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:44:07.443+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:07.442+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:44:07.667+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.346 seconds
+[2024-01-31T00:44:42.282+0100] {processor.py:161} INFO - Started process (PID=12371) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:42.298+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:44:42.299+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:42.298+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:42.332+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:44:42.352+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:42.352+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:44:42.406+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:44:42.405+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:44:42.486+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.231 seconds
+[2024-01-31T00:45:16.477+0100] {processor.py:161} INFO - Started process (PID=12400) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:16.481+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:45:16.484+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:16.483+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:16.563+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:16.596+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:16.596+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:45:16.644+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:16.644+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:45:16.741+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.269 seconds
+[2024-01-31T00:45:48.983+0100] {processor.py:161} INFO - Started process (PID=12432) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:48.984+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-31T00:45:48.986+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:48.986+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:49.003+0100] {processor.py:840} INFO - DAG(s) 'meteo' retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-31T00:45:49.025+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:49.025+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-31T00:45:49.070+0100] {logging_mixin.py:188} INFO - [2024-01-31T00:45:49.070+0100] {dag.py:3820} INFO - Setting next_dagrun for meteo to 2024-01-03T00:00:00+00:00, run_after=2024-01-04T00:00:00+00:00
+[2024-01-31T00:45:49.291+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.314 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

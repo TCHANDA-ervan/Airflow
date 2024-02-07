@@ -1,0 +1,511 @@
+[2024-01-28T06:42:06.877+0100] {processor.py:161} INFO - Started process (PID=11519) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:42:06.893+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:42:06.902+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:42:06.901+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:42:07.131+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943d61d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:42:07.184+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:42:07.180+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:42:07.198+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:42:07.851+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.998 seconds
+[2024-01-28T06:44:25.692+0100] {processor.py:161} INFO - Started process (PID=11572) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:44:25.729+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:44:25.732+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:44:25.731+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:44:25.906+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943da9b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:44:25.945+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:44:25.925+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:44:25.946+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:44:26.852+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.197 seconds
+[2024-01-28T06:46:27.327+0100] {processor.py:161} INFO - Started process (PID=11625) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:46:27.392+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:46:27.431+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:46:27.430+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:46:27.653+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943be680>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:46:27.704+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:46:27.687+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:46:27.705+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:46:28.378+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 1.059 seconds
+[2024-01-28T06:48:26.736+0100] {processor.py:161} INFO - Started process (PID=11677) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:48:26.793+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:48:26.796+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:48:26.795+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:48:26.903+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943b63e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:48:26.912+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:48:26.910+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:48:26.913+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:48:27.230+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.583 seconds
+[2024-01-28T06:50:27.625+0100] {processor.py:161} INFO - Started process (PID=11733) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:50:27.704+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:50:27.706+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:50:27.705+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:50:27.796+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bdb10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:50:27.808+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:50:27.800+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:50:27.810+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:50:28.202+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.615 seconds
+[2024-01-28T06:52:28.382+0100] {processor.py:161} INFO - Started process (PID=11784) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:52:28.428+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:52:28.467+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:52:28.457+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:52:28.632+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd494361f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:52:28.647+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:52:28.639+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:52:28.648+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:52:29.021+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.647 seconds
+[2024-01-28T06:54:29.860+0100] {processor.py:161} INFO - Started process (PID=11837) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:54:29.865+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:54:29.867+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:54:29.867+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:54:29.997+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943be830>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:54:30.025+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:54:30.017+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:54:30.026+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:54:30.604+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.760 seconds
+[2024-01-28T06:56:26.140+0100] {processor.py:161} INFO - Started process (PID=11892) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:56:26.217+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:56:26.220+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:56:26.219+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:56:26.445+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944dba60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:56:26.487+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:56:26.486+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:56:26.522+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:56:27.080+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.982 seconds
+[2024-01-28T06:58:00.984+0100] {processor.py:161} INFO - Started process (PID=12020) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:01.033+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:58:01.064+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:58:01.063+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:01.113+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944da5f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:58:01.117+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:58:01.116+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:58:01.118+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:01.248+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.273 seconds
+[2024-01-28T06:58:51.765+0100] {processor.py:161} INFO - Started process (PID=12063) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:51.810+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:58:51.811+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:58:51.811+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:51.898+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944d86a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:58:51.908+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:58:51.900+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:58:51.930+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:58:52.225+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.476 seconds
+[2024-01-28T06:59:43.473+0100] {processor.py:161} INFO - Started process (PID=12098) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:59:43.494+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T06:59:43.521+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:59:43.520+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:59:43.604+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944db2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T06:59:43.608+0100] {logging_mixin.py:188} INFO - [2024-01-28T06:59:43.607+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T06:59:43.609+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T06:59:43.845+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.383 seconds
+[2024-01-28T07:00:31.996+0100] {processor.py:161} INFO - Started process (PID=12141) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:00:32.032+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:00:32.043+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:00:32.042+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:00:32.144+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943637f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:00:32.156+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:00:32.155+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:00:32.157+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:00:32.440+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.452 seconds
+[2024-01-28T07:01:20.967+0100] {processor.py:161} INFO - Started process (PID=12173) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:01:20.974+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:01:20.994+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:01:20.981+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:01:21.031+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944da470>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:01:21.044+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:01:21.039+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:01:21.047+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:01:21.291+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.362 seconds
+[2024-01-28T07:02:10.994+0100] {processor.py:161} INFO - Started process (PID=12215) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:11.023+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:02:11.025+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:02:11.024+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:11.064+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bf910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:02:11.067+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:02:11.066+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:02:11.078+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:11.355+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.374 seconds
+[2024-01-28T07:02:58.188+0100] {processor.py:161} INFO - Started process (PID=12248) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:58.199+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:02:58.200+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:02:58.200+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:58.253+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd494363280>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:02:58.274+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:02:58.269+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:02:58.274+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:02:58.518+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.351 seconds
+[2024-01-28T07:03:44.925+0100] {processor.py:161} INFO - Started process (PID=12286) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:03:44.949+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:03:44.954+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:03:44.950+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:03:44.996+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943dd120>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:03:45.015+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:03:45.009+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:03:45.016+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:03:45.298+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.390 seconds
+[2024-01-28T07:04:33.964+0100] {processor.py:161} INFO - Started process (PID=12318) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:04:34.008+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:04:34.024+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:04:34.016+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:04:34.099+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944da0b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:04:34.104+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:04:34.102+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:04:34.118+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:04:34.296+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.359 seconds
+[2024-01-28T07:05:24.314+0100] {processor.py:161} INFO - Started process (PID=12359) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:05:24.338+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:05:24.339+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:05:24.338+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:05:24.410+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943628c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:05:24.428+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:05:24.423+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:05:24.433+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:05:24.978+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.686 seconds
+[2024-01-28T07:06:17.222+0100] {processor.py:161} INFO - Started process (PID=12392) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:06:17.248+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:06:17.250+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:06:17.249+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:06:17.306+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943b66b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:06:17.336+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:06:17.332+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:06:17.336+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:06:17.606+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.390 seconds
+[2024-01-28T07:07:02.970+0100] {processor.py:161} INFO - Started process (PID=12431) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:02.983+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:07:02.996+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:07:02.995+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:03.066+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943be5f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:07:03.080+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:07:03.077+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:07:03.082+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:03.514+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.557 seconds
+[2024-01-28T07:07:55.796+0100] {processor.py:161} INFO - Started process (PID=12466) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:55.837+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:07:55.838+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:07:55.838+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:56.000+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944d9810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:07:56.028+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:07:56.027+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:07:56.029+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:07:56.324+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.549 seconds
+[2024-01-28T07:08:49.584+0100] {processor.py:161} INFO - Started process (PID=12507) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:08:49.599+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:08:49.602+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:08:49.600+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:08:49.635+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bfb80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:08:49.641+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:08:49.638+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:08:49.641+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:08:49.747+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.172 seconds
+[2024-01-28T07:09:41.939+0100] {processor.py:161} INFO - Started process (PID=12545) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:09:41.968+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:09:41.974+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:09:41.969+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:09:42.081+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944d9810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:09:42.088+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:09:42.087+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:09:42.089+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:09:42.155+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.236 seconds
+[2024-01-28T07:10:31.889+0100] {processor.py:161} INFO - Started process (PID=12600) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:10:31.910+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:10:31.911+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:10:31.911+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:10:31.978+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944dace0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:10:31.998+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:10:31.996+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:10:31.999+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:10:32.265+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.388 seconds
+[2024-01-28T07:11:27.413+0100] {processor.py:161} INFO - Started process (PID=12648) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:11:27.447+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:11:27.449+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:11:27.448+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:11:27.521+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944dbd30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:11:27.528+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:11:27.527+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:11:27.528+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:11:27.891+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.486 seconds
+[2024-01-28T07:12:22.320+0100] {processor.py:161} INFO - Started process (PID=12776) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:12:22.344+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:12:22.348+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:12:22.347+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:12:22.383+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944da5c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:12:22.394+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:12:22.393+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:12:22.395+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:12:22.552+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.247 seconds
+[2024-01-28T07:13:14.692+0100] {processor.py:161} INFO - Started process (PID=13025) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:13:14.705+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:13:14.707+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:13:14.707+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:13:14.741+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bd960>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:13:14.746+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:13:14.744+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:13:14.746+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:13:14.826+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.144 seconds
+[2024-01-28T07:14:00.226+0100] {processor.py:161} INFO - Started process (PID=13126) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:00.268+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:14:00.274+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:14:00.273+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:00.358+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bdc30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:14:00.363+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:14:00.361+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:14:00.363+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:00.595+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.376 seconds
+[2024-01-28T07:14:52.219+0100] {processor.py:161} INFO - Started process (PID=13165) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:52.228+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:14:52.230+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:14:52.229+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:52.290+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944d9b40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:14:52.297+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:14:52.296+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:14:52.298+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:14:52.415+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.213 seconds
+[2024-01-28T07:15:45.222+0100] {processor.py:161} INFO - Started process (PID=13261) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:15:45.226+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:15:45.238+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:15:45.226+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:15:45.257+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943bc7c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:15:45.262+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:15:45.261+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:15:45.263+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:15:45.464+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.248 seconds
+[2024-01-28T07:16:44.026+0100] {processor.py:161} INFO - Started process (PID=13328) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:16:44.045+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:16:44.047+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:16:44.046+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:16:44.143+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944dbac0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:16:44.170+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:16:44.170+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:16:44.179+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:16:44.503+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.484 seconds
+[2024-01-28T07:17:33.053+0100] {processor.py:161} INFO - Started process (PID=13384) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:17:33.081+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:17:33.087+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:17:33.087+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:17:33.181+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd494360a60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:17:33.189+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:17:33.188+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:17:33.193+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:17:33.524+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.483 seconds
+[2024-01-28T07:18:20.901+0100] {processor.py:161} INFO - Started process (PID=13439) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:18:20.928+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:18:20.936+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:18:20.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:18:21.093+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4944d9960>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:18:21.097+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:18:21.096+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:18:21.098+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:18:21.376+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.529 seconds
+[2024-01-28T07:19:12.699+0100] {processor.py:161} INFO - Started process (PID=13484) to work on /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:19:12.765+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/meteo.py for tasks to queue
+[2024-01-28T07:19:12.774+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:19:12.774+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:19:12.821+0100] {logging_mixin.py:188} INFO - Une erreur s'est produite : HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd4943633d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-01-28T07:19:12.849+0100] {logging_mixin.py:188} INFO - [2024-01-28T07:19:12.848+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/meteo.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/meteo.py", line 37, in <module>
+    start_task >> python_task >> end_task
+NameError: name 'start_task' is not defined
+[2024-01-28T07:19:12.858+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/meteo.py
+[2024-01-28T07:19:13.170+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/meteo.py took 0.475 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

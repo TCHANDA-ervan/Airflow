@@ -1,0 +1,38 @@
+[2024-02-04T03:13:07.321+0100] {processor.py:161} INFO - Started process (PID=55850) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-02-04T03:13:07.323+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-02-04T03:13:07.325+0100] {logging_mixin.py:188} INFO - [2024-02-04T03:13:07.324+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-02-04T08:13:56.342+0100] {logging_mixin.py:188} INFO - [2024-02-04T08:13:54.808+0100] {timeout.py:68} ERROR - Process timed out, PID: 55850
+[2024-02-04T10:06:57.533+0100] {logging_mixin.py:188} INFO - [2024-02-04T08:13:56.738+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py", line 36, in <module>
+    from kubernetes.client import models as k8s
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/__init__.py", line 19, in <module>
+    from . import client
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/client/__init__.py", line 20, in <module>
+    from kubernetes.client.api.well_known_api import WellKnownApi
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/client/api/__init__.py", line 6, in <module>
+    from kubernetes.client.api.well_known_api import WellKnownApi
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/client/api/well_known_api.py", line 20, in <module>
+    from kubernetes.client.api_client import ApiClient
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/client/api_client.py", line 28, in <module>
+    import kubernetes.client.models
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/client/models/__init__.py", line 457, in <module>
+    from kubernetes.client.models.v1alpha1_validating_admission_policy_binding import V1alpha1ValidatingAdmissionPolicyBinding
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.0/best-practices.html#reducing-dag-complexity, PID: 55850
+[2024-02-04T10:06:57.576+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-02-04T10:07:03.159+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 24835.829 seconds

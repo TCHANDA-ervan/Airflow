@@ -1,0 +1,106 @@
+[2024-02-01T14:10:14.160+0100] {processor.py:161} INFO - Started process (PID=6177) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:10:14.169+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:10:14.173+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:10:14.172+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:10:19.798+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:10:20.390+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:10:21.257+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:10:21.250+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:10:21.336+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:10:21.336+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:10:21.790+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 7.645 seconds
+[2024-02-01T14:13:51.516+0100] {processor.py:161} INFO - Started process (PID=6359) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:13:51.571+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:13:51.642+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:13:51.605+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:13:54.176+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:13:54.231+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:13:54.273+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:13:54.272+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:13:54.311+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:13:54.311+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:13:54.722+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 3.250 seconds
+[2024-02-01T14:18:30.709+0100] {processor.py:161} INFO - Started process (PID=6951) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:18:30.789+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:18:30.791+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:18:30.790+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:18:41.354+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:18:41.395+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:18:41.413+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:18:41.411+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:18:41.456+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:18:41.456+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:18:43.174+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 12.502 seconds
+[2024-02-01T14:22:11.838+0100] {processor.py:161} INFO - Started process (PID=7971) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:22:11.912+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:22:11.914+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:22:11.913+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:22:14.037+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:22:14.132+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:22:14.147+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:22:14.146+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:22:14.168+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:22:14.167+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:22:15.065+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 3.260 seconds
+[2024-02-01T14:28:04.993+0100] {processor.py:161} INFO - Started process (PID=8145) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:28:05.026+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:28:05.034+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:28:05.033+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:28:23.854+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:28:24.855+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:28:24.993+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:28:24.992+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:28:25.084+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:28:25.083+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:28:25.403+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 20.456 seconds
+[2024-02-01T14:33:26.994+0100] {processor.py:161} INFO - Started process (PID=8594) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:33:27.041+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:33:27.043+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:33:27.042+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:33:27.797+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:33:27.816+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:33:27.826+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:33:27.825+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:33:27.842+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:33:27.842+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:33:28.231+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 1.297 seconds
+[2024-02-01T14:38:02.616+0100] {processor.py:161} INFO - Started process (PID=9119) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:38:02.657+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:38:02.659+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:38:02.658+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:38:06.935+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:38:07.092+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:38:07.277+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:38:07.275+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:38:07.427+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:38:07.426+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:38:08.287+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 5.712 seconds
+[2024-02-01T14:48:16.534+0100] {processor.py:161} INFO - Started process (PID=10215) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:48:16.583+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:48:16.585+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:48:16.584+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:48:27.168+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:48:27.758+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T14:48:27.920+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:48:27.914+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T14:48:28.007+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:48:28.007+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T14:48:28.578+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 12.084 seconds
+[2024-02-01T14:57:50.681+0100] {processor.py:161} INFO - Started process (PID=11569) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:57:50.728+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T14:57:50.730+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:57:50.729+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:58:20.800+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:58:20.797+0100] {timeout.py:68} ERROR - Process timed out, PID: 11569
+[2024-02-01T14:58:20.997+0100] {logging_mixin.py:188} INFO - [2024-02-01T14:58:20.801+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/__init__.py", line 21, in <module>
+    from . import dynamic
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/dynamic/__init__.py", line 15, in <module>
+    from .client import *  # NOQA
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/dynamic/client.py", line 21, in <module>
+    from .discovery import EagerDiscoverer, LazyDiscoverer
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/kubernetes/dynamic/discovery.py", line 29, in <module>
+    from .resource import Resource, ResourceList
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.0/best-practices.html#reducing-dag-complexity, PID: 11569
+[2024-02-01T14:58:20.999+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T14:58:21.827+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 31.188 seconds
+[2024-02-01T16:05:58.353+0100] {processor.py:161} INFO - Started process (PID=9516) to work on /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T16:05:59.119+0100] {processor.py:830} INFO - Processing file /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-02-01T16:05:59.129+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:05:59.128+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T16:06:21.001+0100] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-02-01T16:06:22.471+0100] {logging_mixin.py:188} WARNING - /home/ubuntu/.local/lib/python3.10/site-packages/airflow/serialization/serialized_objects.py:1563 DeprecationWarning: This module is deprecated. The `cncf.kubernetes` provider before version 7.4.0 uses this module - you should migrate to a newer version of `cncf.kubernetes` to get rid of this warning. If you import the module via `airflow.kubernetes` import, please use `cncf.kubernetes' provider 7.4.0+ and switch all your imports to use `apache.airflow.providers.cncf.kubernetes` to get rid of the warning.
+[2024-02-01T16:06:26.304+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:06:26.304+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-01T16:06:26.322+0100] {logging_mixin.py:188} INFO - [2024-02-01T16:06:26.322+0100] {dag.py:3820} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-02-01T16:06:30.893+0100] {processor.py:183} INFO - Processing /home/ubuntu/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 32.617 seconds
